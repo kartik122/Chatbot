@@ -17,7 +17,7 @@ Remove `--gpus all` command if you dont want to use the GPUs to run the image or
 
 Inside your client app directory go to `./src/Chatbot.js`.
 
-Change the URL on **line 38** to your appropriate URI and Port Number on which your docker is being hosted.
+Change the URL on **line 38** to the IP Address of the host machine where the docker image is running along with its port number where it is hosted and replace locahost:5000 with the IP address and Port Number accordingly.
 
 Example : //line 38 : `.get(http://[IP-Address-OR-Localhost]:[PORT-NUMBER]/api/falcon)`
 
